@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ваш Интернет-Магазин</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="content-wrapper">
+  <div class="header">
+    <div class="shop-title"><b>SHPPNG</b></div>
+    <div class="navigation">
+      <span class="icon-shopping-cart">
+        <img src="https://i.imgur.com/0sHugFX.png" alt="Shopping Cart">
+      </span>
+      <span class="shopping-bag">Shopping Bag</span>
+      <span class="arrow1">▶</span>
+      <span class="checkout">Checkout</span>
+      <span class="arrow2">▶</span>
+      <span class="confirmation">Confirmation</span>
+    </div>
+  </div>
+  <div class="square1">
+    <h2 class="personal-info-title"><b>Personal information</b></h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Adrien" required>
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Gervax" required>
+        <div class="form-group text2">
+          <label for="email">Email Adress</label>
+          <input type="email" id="email" name="email" placeholder="adrien.gervaix@gmail.com" required>
+        </div>
+        <div class="form-group text3">
+          <label for="street">Street</label>
+          <input type="text" id="street" name="street" placeholder="284, Place de la bourse" required>
+        </div>
+        <div class="form-group text4">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" placeholder="Lille" required>
+        </div>
+        <div class="form-group text5">
+          <label for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="france">France</option>
+          </select>
+        </div>
+        <div class="phone-input-container">
+          <label for="phone-number">Phone number</label>
+          <div class="phone-input-group">
+            <span class="country-code">+33</span>
+            <input type="tel" id="phone-number" name="phone" placeholder="6 12 34 56 78">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+  <div class="square2">
+  <h2 class="delivery-title">Delivery</h2>
+  <div class="delivery-option-container">
+    <div class="delivery-info">
+    <p>Estimated delivery date: <strong>August 4th.</strong></p>
+    <p>Every package has a tracking number.</p>
+    </div>
+    <button class="delivery-option paid-delivery">
+      <span class="delivery-price">5<span class="currency">$</span></span>
+      <span class="delivery-time">2-5 days</span>
+    </button>
+  </div>
+  <div class="delivery-fee-label">Delivery fee</div>
+  <button class="delivery-option free-delivery">
+    <span class="delivery-price">0<span class="currency">$</span></span>
+    <span class="delivery-time">3-4 weeks</span>
+  </button>
+  </div>
+  <div class="checkbox-wrapper">
+    <label class="custom-checkbox">
+      <input type="checkbox" name="newsletter">
+      <span class="checkbox-text">Subscribe to our newsletter</span>
+    </label>
+    <label class="custom-checkbox">
+      <input type="checkbox" name="create-account">
+      <span class="checkbox-text">Create an account</span>
+    </label>
+  </div>
+  <button class="confirm-button"><b>Confirm my order</b></button>
+</div>
+</body>
+</html>
